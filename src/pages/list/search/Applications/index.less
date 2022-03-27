@@ -1,0 +1,63 @@
+.standardFormRow {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #f0f0f0;
+  .label {
+    flex: 0 0 auto;
+    margin-right: 24px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    text-align: right;
+  }
+  .label > span {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+  }
+  .content {
+    flex: 1 1;
+    .tagSelect {
+      position: relative;
+      max-height: 32px;
+      margin: 0 24px 0 0;
+      padding: 0 8px;
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 30px;
+      transition: all 0.3s;
+    }
+  }
+}
+.cardList {
+  margin-top: 24px;
+}
+.standardFormRowLast {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+.cardInfo {
+  margin-top: 16px;
+  margin-left: 40px;
+  zoom: 1;
+}
+
+.cardInfo > div {
+  position: relative;
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.cardInfo > div p:first-child {
+  margin-bottom: 4px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 12px;
+  line-height: 20px;
+}
+.cardInfo > div p {
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+}

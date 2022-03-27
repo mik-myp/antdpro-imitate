@@ -1,0 +1,62 @@
+.standardFormRow {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px dashed #f0f0f0;
+  .label {
+    flex: 0 0 auto;
+    margin-right: 24px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    text-align: right;
+  }
+  .label > span {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+  }
+  .content {
+    flex: 1 1;
+    .tagSelect {
+      position: relative;
+      max-height: 32px;
+      margin: 0 24px 0 0;
+      padding: 0 8px;
+      overflow: hidden;
+      font-size: 14px;
+      line-height: 30px;
+      transition: all 0.3s;
+    }
+  }
+}
+.standardFormRowLast {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+.listContent {
+  .description {
+    max-height: 720px;
+    line-height: 22px;
+  }
+  .extra {
+    margin-top: 16px;
+    color: rgba(0, 0, 0, 0.45);
+    line-height: 22px;
+    .avatar {
+      position: relative;
+      top: 1px;
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+      vertical-align: top;
+    }
+  }
+
+  .extra > em {
+    margin-left: 16px;
+    color: rgba(0, 0, 0, 0.25);
+    font-style: normal;
+  }
+}
